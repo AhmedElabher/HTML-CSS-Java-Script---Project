@@ -105,9 +105,9 @@ document.querySelector(".toggle-setting .fa-gear").onclick = function () {
 let landingPage = document.querySelector(".landing-page");
 //Get Array of img
 
-let imgsArray = ["1.JPG", "2.JPG", "3.PNG", "4.JPG", "2.JPEG"];
+let imgsArray = ["1.jpg", "2.jpg", "3.png", "4.jpg", "2.jpeg"];
 // Change background Image url
-landingPage.style.backgroundImage = 'url("Images/3.PNG")';
+landingPage.style.backgroundImage = 'url("Images/3.png")';
 
 // Get Randomnumber
 
