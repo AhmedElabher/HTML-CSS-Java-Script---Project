@@ -553,6 +553,12 @@ body {
   .about-us {
     display: block;
   }
+    .introduction-text h1 {
+    font-size: 35px;
+  }
+  .introduction-text p {
+    font-size: 15px;
+  }
   .about-us .info-box h4,
   .about-us .info-box p {
     text-align: center;
@@ -579,7 +585,7 @@ body {
     transition: 0.5s;
   }
   .contact-us .link:hover {
-    letter-spacing: 4px;
+    letter-spacing: 0.5px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
